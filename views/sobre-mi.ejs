@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Company</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/styele.css">
+
+    
+</head>
+<body>
+    <div> 
+        <%- include('partials/header.ejs') %>
+    </div>
+<div class="container">
+    <div class="profile-card row">
+        <div class="col-md-4 text-center">
+            <img src="img/logomira.png" alt="Profile Image" class="profile-img">
+        </div>
+        <div class="col-md-8">
+            <h2>Hello, I'm <span class="text-primary">[Your Name]</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis consectetur ullamcorper. Aliquam cursus, nulla et elementum sodales, enim orci consectetur libero, id placerat turpis nibh in ex.</p>
+            <h3 class="text-secondary">Construction Company Owner</h3>
+            <div class="quote">
+                "Building the future, one project at a time."
+            </div>
+            <div class="career">
+                <h4>Professional Career</h4>
+                <ul class="list-unstyled">
+                    <li><strong>2010:</strong> Construction Worker</li>
+                    <li><strong>2015:</strong> Project Manager</li>
+                    <li><strong>2022:</strong> Company Owner</li>
+                </ul>
+            </div>
+            <div class="contact-info">
+                <p><strong>Contact info:</strong></p>
+                <p><i class="fas fa-phone"></i> +123-456-7890</p>
+                <p><i class="fas fa-envelope"></i> email@constructioncompany.com</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- include('partials/footer.ejs') %>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>

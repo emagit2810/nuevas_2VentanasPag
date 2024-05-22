@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>doc de prueba</title>
+   
+
+
+
+</head>
+<body>
+    <div class="carousel-container">
+        <div class="carousel">
+          <div class="item">
+            <img src="img/mural-ladrillo.jpg" alt="">
+
+          </div>
+          <div class="item">
+            <img src="img/vista-hermosa.jpg" alt="">
+
+          </div>
+          <div class="item">
+            <img src="img/sala-pintura.jpg" alt="">
+
+          </div>
+          <div class="item">
+            <img src="img/arbol-luz.jpg" alt="">
+
+          </div>
+          <div class="item">
+            <img src="img/1era milenio.jpg" alt="">
+
+          </div>
+          <div class="item">
+            <img src="img/cocina-blanca.jpg" alt="">
+
+          </div>
+          <div class="item">
+            <img src="img/precocina.jpg" alt="">
+
+          </div>
+          <div class="item">
+            <img src="img/patio-vista.jpg" alt="">
+
+          </div>
+          <div class="item">
+            <img src="img/sala-pintura.jpg" alt="">
+
+          </div>
+          <div class="item">
+            <img src="img/vista-hermosa.jpg" alt="">
+
+          </div>
+          <div class="item">
+            <img src="img/patio-vista.jpg" alt="">
+
+          </div>
+        </div>
+      </div>
+      <style>
+      
+        .carousel-container {
+            
+            overflow-x: scroll ; /* Permite el desplazamiento horizontal */
+            overflow-y: hidden; /* Oculta la barra de desplazamiento vertical */
+            width: 100%;
+            height: 140px; /* Altura deseada del carrusel */
+        }
+        .carousel {
+        
+            display: flex; /* Utiliza flexbox para los elementos */
+            flex-wrap: nowrap; /* Evita que los elementos se envuelvan */
+            justify-content: flex-start; /* Alinea los elementos al inicio */
+            gap: 20px; /* Espacio entre elementos */
+        }
+        .item {
+            flex: 0 0 auto; /* Permite que los elementos tengan su propio tamaño */
+            width: 10rem; /* Ancho deseado de cada elemento */
+        }
+        .item img{
+            width: 10rem;
+            height: 10rem;
+
+        }
+        ::-webkit-scrollbar {
+            height: 10px; /* Ancho de la barra de desplazamiento */
+            color:  red;
+
+        }
+        ::-webkit-scrollbar-thumb {
+            background-color: #888; /* Color del "pulgarcito" */
+            border-radius: 5px; /* Borde redondeado */
+     }
+
+      </style>
+    
+</body>
+</html>

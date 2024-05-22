@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Humanist+Sans+Serif:wght@400;700&display=swap');
+/* fuentes letra */
+body{
+  
+  font-family: 'Humanist Sans Serif', sans-serif;
+}
+h1{
+  font-family: "Didot", serif;
+
+}
+
+#Conocimientos{
+  font-size: 1.2rem;
+}
+.mostra{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+
+}
+
+/* grid cuadro */
+#grid{ 
+  display: grid;
+  height: 1500px;
+  width: 1600px;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  gap: 1rem;
+  height: 450px;
+  width: 1300px;
+
+}
+
+
+
+
+
+
+.un{
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 3 ;
+
+  
+
+}
+.do{
+  grid-row-start: 1;
+  grid-row-end: 6;
+  grid-column-start: 3;
+  grid-column-end: 5;
+
+}
+.tr{
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 5;
+  grid-column-end: 7;
+
+}
+.qu{
+   grid-row-start: 1;
+  grid-row-end: 6;
+  grid-column-start: 7;
+  grid-column-end: 9;
+
+}
+.qi{
+  grid-row-start: 4;
+  grid-row-end: 9;
+
+  grid-column: span 2;
+
+}
+.se{
+  grid-row-start: 6;
+  grid-row-end: 9;
+  grid-column-start: 3;
+  grid-column-end: 5;
+
+}
+.st{
+  grid-row-start: 4;
+  grid-row-end: 9;
+  grid-column-start: 5;
+  grid-column-end: 7;
+
+}
+.oc{
+  grid-row-start: 6;
+  grid-row-end: 9;
+  grid-column-start: 7;
+  grid-column-end: 9;
+
+}
+
+
+/* celulares-imagen */
+
+
+
+
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+.wrapper {
+  background: linear-gradient(300deg,#112D4E, #3F72AF);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+#titulo{
+  font-family: 'Didot', serif;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.card-img-container {
+  flex: 0 0 20%; /* Establece el ancho de la imagen */
+  padding: 1rem; /* Agrega espacio entre la imagen y el cuerpo de la tarjeta */
+}
+
+#contactoh5{
+  font-weight:bolder;
+}
+#contactoh6{
+  font-weight:bolder;
+}
+.card-body {
+
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+  
+}
+
+
+   /* El cuerpo de la tarjeta crecerá para ocupar el espacio restante */
+
+
+
+.bton-contactom{
+  margin-top: 6rem;
+  margin-left: 15rem;
+}
+.contact11{
+  width: 100%;
+  height:100% ;
+  display: flex ;
+  flex-direction: row;
+}
+.contenedorPrincipal{
+  height: 10rem;
+}
+.icon-feature {
+  vertical-align: middle;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem; 
+  background-color: #E9ECEF;
+  margin-right: 16PX;
+}
+  
+#navbar2{
+  margin-top: 40px;
+}
+#navbar2 .card {
+  border: 2px solid red;
+  margin: 10px 4px;
+  transition: .6s ease;
+}
+
+#navbar2 .card:hover {
+  transform: scale(1.05);
+}
+
+.card-block {
+   padding: 10px;
+}
+.botnav1{
+  background-color: transparent;
+  color: white;
+  --hover: #3F72AF;
+  outline: none;
+  border: none; /* Asegúrate de que no haya borde */
+
+ 
+
+}
+
+.botnav2{
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  -webkit-transform: translateY(-0.25em);
+          transform: translateY(-0.25em);
+  color: var(--color);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+
+}
+.scrollcards {
+  background-color: #fff;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height:0px;
+    background: transparent;
+}
+
+div.scrollcards .card {
+    display: inline-block;
+    padding: 14px;
+    text-decoration: none;
+    height: 150px; 
+    width: 300px;
+}
+
+/* swipper carusel 2 */
+.slider {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.swiper-container {
+  padding-bottom: 20px;
+}
+
+.swiper-scrollbar {
+  background: #d6d6d6;
+}
+
+.swiper-container-horizontal > .swiper-scrollbar {
+  border-radius: 2px;
+  height: 5px;
+  width: 200px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.swiper-wrapper img {
+  width: 100%;
+}
+.contenedorMaestro1{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.container {
+  max-width: 75rem !important; 
+}
+:root {
+  --bs-emphasis-color:white; /* Ejemplo: naranja */
+}
+p {
+  color: white;
+ 
+}
+
+/* sobre mi style */
+/* ------- */
+body {
+  font-family: Arial, sans-serif;
+}
+.profile-card {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 40px auto;
+}
+.profile-img {
+  border-radius: 50%;
+  max-width: 150px;
+}
+.contact-info {
+  margin-top: 20px;
+}
+.quote {
+  margin: 20px 0;
+  font-style: italic;
+  color: #555;
+}
+.career {
+  margin-top: 20px;
+}

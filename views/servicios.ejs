@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios de Construcción</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styele.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .service-section {
+            padding: 40px 0;
+        }
+        .service-title {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .service-list {
+            margin-bottom: 20px;
+        }
+        .service-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+ <%- include('partials/header.ejs') %>
+
+<div class="container service-section">
+    <div class="row">
+        <div class="col-md-6">
+            <h2 class="service-title">SERVICIOS</h2>
+            <ul class="service-list list-unstyled">
+                <li>&#8226; Análisis, estudios y presupuestos de la obra.</li>
+                <li>&#8226; Diseño de planos.</li>
+                <li>&#8226; Asesorías personalizadas.</li>
+                <li>&#8226; Ejecución de proyectos.</li>
+                <li>&#8226; Ejecución de obras civiles de carácter público o privado.</li>
+                <li>&#8226; Cimientos, albañilería y mampostería.</li>
+                <li>&#8226; Reformas & adecuaciones.</li>
+                <li>&#8226; Acompañamiento.</li>
+            </ul>
+        </div>
+        <div class="col-md-6 text-center">
+            <img src="img/servicio-pala.png" alt="Construction Service" class="service-image">
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-md-6 text-center">
+            <img src="https://via.placeholder.com/600x400" alt="Drywall Service" class="service-image">
+        </div>
+        <div class="col-md-6">
+            <h2 class="service-title">Estructura Drywall</h2>
+            <ul class="service-list list-unstyled">
+                <li>&#8226; Tabiquerías.</li>
+                <li>&#8226; Revestimientos.</li>
+                <li>&#8226; Cielorrasos.</li>
+                <li>&#8226; Detalles arquitectónicos.</li>
+                <li>&#8226; Falsas columnas.</li>
+                <li>&#8226; Vigas, cercos.</li>
+                <li>&#8226; Sobre techos.</li>
+                <li>&#8226; Entrepisos.</li>
+                <li>&#8226; Otras aplicaciones.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-md-6">
+            <h2 class="service-title">Obra Blanca & Acabados</h2>
+            <ul class="service-list list-unstyled">
+                <li>&#8226; Revoque.</li>
+                <li>&#8226; Estuco (polvo, plástico, acrílico).</li>
+                <li>&#8226; Pintura.</li>
+                <li>&#8226; Enchape.</li>
+                <li>&#8226; Pisos (cerámica, porcelanato, madera).</li>
+                <li>&#8226; Detalles estéticos.</li>
+            </ul>
+        </div>
+        <div class="col-md-6 text-center">
+            <img src="https://via.placeholder.com/600x400" alt="Finishing Service" class="service-image">
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
